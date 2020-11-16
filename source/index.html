@@ -16,9 +16,15 @@
     <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
     <div class="main-nav__wrapper">
       <ul class="main-nav__list">
-        <li class="main-nav__item--active"><a>Главная</a></li>
-        <li class="main-nav__item"><a href="catalog.html">Каталог продукции</a></li>
-        <li class="main-nav__item"><a href="form.html">Подбор программы</a></li>
+        <li class="main-nav__item main-nav__item--active">
+          <a>Главная</a>
+          </li>
+        <li class="main-nav__item">
+          <a href="catalog.html">Каталог продукции</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="form.html">Подбор программы</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -37,7 +43,6 @@
       <div class="program-type__wrapper">
         <ul class="program-type__list">
           <li class="program-type__item">
-            <img class="program-type-img" src="https://via.placeholder.com/150x150" alt="Программа на похудение кошки">
             <h3 class="program-type__title">Похудение</h3>
             <p class="program-type__description">
               Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim
@@ -46,7 +51,6 @@
             <a class="program-type__link" href="catalog.html">Каталог Slim</a>
           </li>
           <li class="program-type__item">
-            <img class="program-type-img" src="https://via.placeholder.com/150x150" alt="Программа на похудение кошки">
             <h3 class="program-type__title">Набор массы</h3>
             <p class="program-type__description">
               Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить
@@ -62,56 +66,52 @@
       <div class="advantages__wrapper">
         <span class="advantages__title title">Как это работает</span>
         <ul class="advantages__list">
-          <li class="advantages__item">
-            <p class="advantages__description">Функциональное питание
-              содержит только полезные
-              питательные вещества.</p>
+          <li class="advantages__item--functional">Функциональное питание
+            содержит только полезные
+            питательные вещества.
           </li>
-          <li class="advantages__item">
-            <p class="advantages__description">Выпускается в виде порошка,
-              который нужно лишь залить
-              кипятком и готово.</p>
+          <li class="advantages__item--simple">Выпускается в виде порошка,
+            который нужно лишь залить
+            кипятком и готово.
           </li>
-          <li class="advantages__item">
-            <p class="advantages__description">Замените один-два приема
-              обычной еды на наше
-              функциональное питание.</p>
+          <li class="advantages__item--exchange">Замените один-два приема
+            обычной еды на наше
+            функциональное питание.
           </li>
-          <li class="advantages__item">
-            <p class="advantages__description">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!</p>
+          <li class="advantages__item--result">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!
           </li>
         </ul>
       </div>
     </section>
-    <section class="example">
+    <section class="transform">
       <h2 class="visually-hidden">Пример питания</h2>
-      <div class="example__wrapper">
-        <span class="example__wrapper title">Живой пример</span>
-        <p class="example__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy
+      <div class="transform__wrapper">
+        <span class="transform__wrapper title">Живой пример</span>
+        <p class="transform__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy
           Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по
           16 часов в день. </p>
-        <table class="example__table">
+        <table class="transform__table">
           <thead>
-          <tr class="example__table--names">
-            <td class="example__table--name">Снижение веса</td>
-            <td class="example__table--name">Затрачено времени</td>
+          <tr class="transform__table--names">
+            <td class="transform__table--name">Снижение веса</td>
+            <td class="transform__table--name">Затрачено времени</td>
           </tr>
           </thead>
           <tbody>
-          <tr class="example__table--values">
-            <td class="example__table--value">5кг</td>
-            <td class="example__table--value">60 дней</td>
+          <tr class="transform__table--values">
+            <td class="transform__table--value">5кг</td>
+            <td class="transform__table--value">60 дней</td>
           </tr>
           </tbody>
         </table>
-        <span class="example__result">Затраты на питание: 15 000 руб.</span>
-        <div class="example__slider">
-          <img class="example__cat" src="https://via.placeholder.com/150x150" alt="Кошка">
-          <div class="example__slider--status-bar">
-            <button class="example__slider--min-toggle" type="button" aria-label="Было">Было</button>
+        <span class="transform__result">Затраты на питание: 15 000 руб.</span>
+        <div class="transform__slider">
+          <img class="transform__cat" src="https://via.placeholder.com/150x150" alt="Кошка">
+          <div class="transform__slider--status-bar">
+            <button class="transform__slider--min-toggle" type="button" aria-label="Было">Было</button>
             <input name="status-bar" id="status-bar" type="range">
             <label for="status-bar"></label>
-            <button class="example__slider--min-toggle" type="button" aria-label="Стало">Стало</button>
+            <button class="transform__slider--min-toggle" type="button" aria-label="Стало">Стало</button>
           </div>
         </div>
       </div>
@@ -131,26 +131,22 @@
         <img src="https://via.placeholder.com/150x150" alt="Карта проезда">
       </div>
     </section>
-    <section class="footer__buttons">
+    <section class="footer__copyright">
       <h2 class="visually-hidden">Ссылки на сайты</h2>
-      <a>
-        <img class="footer__logo--cat logo-text" src="https://via.placeholder.com/150x150" alt="Кэт энерджи">
-      </a>
-      <a href="https://htmlacademy.ru/intensive/adaptive">
-        <img class="footer__logo--html" src="https://via.placeholder.com/150x150" alt="Htmlacademy">
-      </a>
+      <a class="footer__copyright--logo logo-text"></a>
+      <a class="footer__copyright--html" href="https://htmlacademy.ru/intensive/adaptive"></a>
     </section>
     <section class="social-media">
       <h2 class="visually-hidden">Социальные сети</h2>
-      <ul>
-        <li>
-          <a href="">Вконтакте</a>
+      <ul class="page-footer__socials">
+        <li class="page-footer__item">
+          <a href="" class="page-footer__link">Вконтакте</a>
         </li>
-        <li>
-          <a href="">Инстаграм</a>
+        <li class="page-footer__item">
+          <a href="" class="page-footer__link">Инстаграм</a>
         </li>
-        <li>
-          <a href="">Фейсбук</a>
+        <li class="page-footer__item">
+          <a href="" class="page-footer__link">Фейсбук</a>
         </li>
       </ul>
     </section>
