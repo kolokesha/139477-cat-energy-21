@@ -1,0 +1,29 @@
+.program-type{
+  margin-top:20px;
+}
+.program-type__list{
+  padding-inline-start: 0;
+}
+.program-type__item{
+  text-decoration: none;
+  list-style: none;
+  background-color: $c-basic-grey;
+  padding: 20px;
+}
+
+.program-type__title{
+  font-size: 24px;
+  line-height: 37px;
+  font-weight: 400;
+}
+.program-type__description{
+  font-family: "Arial", sans-serif;
+  color: $c-dark-grey;
+}
+.program-type__link{
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $c-black;
+}

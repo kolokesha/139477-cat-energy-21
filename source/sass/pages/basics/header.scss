@@ -1,0 +1,39 @@
+.page-header{
+  text-transform: uppercase;
+}
+.page-header__logo{
+  min-width: 191px;
+  width: 100%;
+  margin-left: 20px;
+}
+.main-nav__list{
+  margin: 0;
+  padding: 0;
+  margin-right: 30px;
+}
+.main-nav__link{
+  text-decoration: none;
+  color: $c-black;
+}
+.main-nav__item{
+  font-size: 20px;
+  line-height: 20px;
+  list-style: none;
+  text-align: center;
+  min-height: 65px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  border-top: 1px solid $c-border-menu;
+    &:last-child
+  {
+    border-bottom: 1px solid $c-border-menu;
+  }
+}
+.main-nav__toggle{
+  position: absolute;
+  top: 4px;
+  right: 0;
+  margin: 0;
+}

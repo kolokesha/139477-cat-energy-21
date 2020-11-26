@@ -1,0 +1,22 @@
+.program{
+  background-color: $c-basic-green;
+  color: $c-white;
+}
+.main-title{
+  line-height: 36px;
+  font-size:36px;
+  text-align: center;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+.program__slogan{
+  margin: 47px 0 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  color: $c-white;
+  order: 2;
+}

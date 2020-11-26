@@ -1,0 +1,25 @@
+.main-footer{
+  padding-top: 30px;
+  padding-bottom:30px;
+}
+.main-footer__contacts{
+  font-size:16px;
+  font-weight:400;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: $c-light-black;
+}
+.contacts__address{
+  font-family: "Arial", sans-serif;
+  font-size:14px;
+  line-height: 20px;
+  text-decoration: none;
+  font-style:normal;
+  color: $c-dark-grey;
+}
+.social__list{
+  list-style: none;
+}
+.main-footer__copyright{
+  background-color: $c-basic-grey;
+}
